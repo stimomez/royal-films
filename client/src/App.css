@@ -1,0 +1,30 @@
+.drop-down-list {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  
+  align-items: center;
+}
+
+.drop-down-list ul {
+  position: absolute;
+  background: rgb(188, 184, 184);
+  display: none;
+  padding: 7px;
+  border-radius: 10px;
+
+}
+
+.drop-down-list #checkbox-list {
+  display: none;
+}
+.drop-down-list #checkbox-list:checked ~ ul {
+  display: block;
+  z-index: 30;
+}
+
+.drop-down-list #checkbox-list:checked .icon-list {
+  padding: 10px;
+}
