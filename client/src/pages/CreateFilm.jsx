@@ -166,7 +166,7 @@ const CreateFilm = () => {
               </h2>
 
               <div required name="classification" id="classification">
-                <input type="checkbox" name="" id="checkbox-list" />
+                <input type="checkbox"  id="checkbox-list" />
 
                 <label htmlFor="checkbox-list" className="cursor-pointer">
                   <span>
